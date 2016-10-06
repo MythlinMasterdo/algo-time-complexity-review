@@ -282,7 +282,6 @@ function findColor(quadTree, coordinates){
 }
 //Logarithmic
 
-
 /////////// Bonus! ///////////
 /////////// time complexity:
 //this will require some math to determine
@@ -305,4 +304,4 @@ function tournamentRedux(players){
 //if is 1
 //for is n
 //calling hot potato is 1
-//linear
+//Logarithmic
