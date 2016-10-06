@@ -159,7 +159,18 @@ function countChar(string){
   }
   return counts;
 }
-
+//for loop is n
+//assignment of currs is 1
+//for loops is n
+//if is 1
+//++ is 1
+//if is 1
+//assignment is 1
+///n * n + 1*1*1*1*1
+//2n * 5
+//10n
+//5n
+//quadratic
 
 /////////// Prompt 8 ///////////
 /////////// time complexity:
@@ -173,7 +184,10 @@ var factorial = function(num){
     return num * factorial(num-1);
   }
 }
-
+//if is 1
+//operation is 1
+//factorial call on operation is n
+//linear
 
 /////////// Prompt 9 ///////////
 /////////// time complexity:
@@ -191,8 +205,10 @@ function tournament(players){
     return tournament(results);
   }
 }
-
-
+//else is 1
+//assignment is 1
+//tournament call is n
+//linear, is actually log n
 
 /////////// Prompt 10 ///////////
 /////////// time complexity:
@@ -213,7 +229,11 @@ function allPasswords(allowedChars, maxLength){
   findPassword([]);
   return results;
 }
-
+//if is 1
+//push is 1
+//if is 1
+//for is n
+//expontential due to calling itself again and concat
 
 /////////// Prompt 11 ///////////
 /////////// time complexity:
@@ -240,7 +260,7 @@ function findColor(quadTree, coordinates){
       return findColor(quadTree.color[3], coordinates);
     }
   }
-
+//5
   function findQuadrant(quadTree, coordinates){
     var y = (quadTree.coordinates.top + quadTree.coordinates.bottom)/2;
     var x = (quadTree.coordinates.left + quadTree.coordinates.right)/2;
@@ -258,8 +278,9 @@ function findColor(quadTree, coordinates){
       }
     }
   }
+  //2
 }
-
+//Logarithmic
 
 
 /////////// Bonus! ///////////
@@ -281,3 +302,7 @@ function tournamentRedux(players){
     return tournament(results);
   }
 }
+//if is 1
+//for is n
+//calling hot potato is 1
+//linear
